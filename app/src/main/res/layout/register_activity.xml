@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    an
     tools:context=".Register_Activity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edt_Username1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -22,7 +21,7 @@
         app:layout_constraintVertical_bias="0.386" />
 
     <EditText
-        android:id="@+id/edt_Password"
+        android:id="@+id/edt_Password2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -34,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edt_Password2"
+        android:id="@+id/edt_Password3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
