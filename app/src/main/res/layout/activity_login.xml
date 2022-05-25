@@ -7,9 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".Login_Activity">
 
+
+
     <EditText
         android:id="@+id/edt_Phonenumber"
-        android:layout_width="wrap_content"
+        android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
@@ -23,42 +25,45 @@
 
     <EditText
         android:id="@+id/edt_Password"
-        android:layout_width="wrap_content"
+        android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
         android:text="Mật Khẩu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_Phonenumber"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
 
     <Button
         android:id="@+id/btn_Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="292dp"
+        android:layout_width="330sp"
+        android:layout_height="62dp"
+        android:backgroundTint="#F6F3F3"
         android:text="Đăng Nhập"
+        android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_Password"
-        app:layout_constraintVertical_bias="0.916" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
 
     <TextView
         android:id="@+id/tv_dangky"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đăng Ký"
+        android:text="Chưa Có Tài Khoản? Đăng Ký Ngay"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Login"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
