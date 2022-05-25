@@ -3,38 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/blue"
     android:layout_height="match_parent"
-    tools:context=".Login_Activity">
-
+    tools:context=".Login_Activity"
+    android:background="@color/blue">
 
     <EditText
         android:id="@+id/edt_Phonenumber"
         android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Username"
+        android:hint="Số Điện Thoại"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.342" />
 
-    <EditText
-        android:id="@+id/edt_Password2"
-        android:layout_width="330sp"
+    <TextView
+        android:id="@+id/tv_notAccount"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:text="Chưa Có Tài Khoản? Đăng Ký Ngay"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintVertical_bias="0.664" />
 
     <Button
         android:id="@+id/btn_Login"
@@ -48,21 +47,20 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintVertical_bias="0.569" />
 
-    <TextView
-        android:id="@+id/tv_dangky"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edt_Password"
+        android:layout_width="330sp"
         android:layout_height="wrap_content"
-        android:text="Chưa Có Tài Khoản? Đăng Ký Ngay"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
+        android:ems="10"
+        android:hint="Mật Khẩu"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655" />
-
+        app:layout_constraintVertical_bias="0.444" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

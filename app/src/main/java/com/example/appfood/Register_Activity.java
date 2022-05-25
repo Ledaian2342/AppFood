@@ -2,36 +2,37 @@ package com.example.appfood;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
+import android.view.View;
+import android.widget.TextView;
 
 public class Register_Activity extends AppCompatActivity {
 
-    EditText edt_Username1,edt_Password2,edt_Password3;
-    Button btn_Register;
+    TextView tv_haveAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register_activity);
+        setContentView(R.layout.activity_register);
+
+        getSupportActionBar().hide();
 
         anhXa();
         xuLyDangKy();
-
     }
 
     private void xuLyDangKy() {
-
+        tv_haveAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Register_Activity.this,Login_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void anhXa() {
-
-        edt_Username1 = findViewById(R.id.edt_Username1);
-        edt_Password2 = findViewById(R.id.edt_Password2);
-        edt_Password3 = findViewById(R.id.edt_Password3);
-
-        btn_Register = findViewById(R.id.btn_Register);
-
+        tv_haveAccount = findViewById(R.id.tv_haveAccount);
     }
 }
