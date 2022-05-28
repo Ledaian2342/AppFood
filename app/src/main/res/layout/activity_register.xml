@@ -20,11 +20,11 @@
         app:srcCompat="@drawable/view_background" />
 
     <EditText
-        android:id="@+id/edt_Username1"
+        android:id="@+id/edt_RegEmail"
         android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Số Điện Thoại"
+        android:hint="Email"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <EditText
-        android:id="@+id/edt_Password3"
+        android:id="@+id/edt_RegAgPassword"
         android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -62,11 +62,11 @@
         app:layout_constraintVertical_bias="0.647" />
 
     <EditText
-        android:id="@+id/edt_Password2"
+        android:id="@+id/edt_RegPassword"
         android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Mật Khẩu"
+        android:hint="Mật Khẩu ( 6 Ký Tự Trở Lên)"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,10 +82,11 @@
         android:text="Đã Có Tài Khoản? Đăng Nhập Ngay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_Register"
-        app:layout_constraintVertical_bias="0.292" />
+        app:layout_constraintVertical_bias="0.153" />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="48dp"

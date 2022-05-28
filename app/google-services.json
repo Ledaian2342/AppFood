@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086569157414",
+    "project_id": "oder-food-a2bf2",
+    "storage_bucket": "oder-food-a2bf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086569157414:android:6c5dea617a4955b023a7e7",
+        "android_client_info": {
+          "package_name": "com.example.appfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086569157414-omfvv666455s6qbqb5nbl7psrl96128l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV2pHqKHeu-b59d57kjoqP2M4mrDsv7Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086569157414-omfvv666455s6qbqb5nbl7psrl96128l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

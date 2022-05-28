@@ -20,11 +20,11 @@
         app:srcCompat="@drawable/view_background" />
 
     <EditText
-        android:id="@+id/edt_Phonenumber"
+        android:id="@+id/edt_LogEmail"
         android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Số Điện Thoại"
+        android:hint="Email"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.569" />
 
     <EditText
-        android:id="@+id/edt_Password"
+        android:id="@+id/edt_LogPassword"
         android:layout_width="330sp"
         android:layout_height="wrap_content"
         android:ems="10"
