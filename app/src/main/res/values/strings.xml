@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Oder Food</string>
+    <string name="btn_Nav_Home">Home</string>
+    <string name="btn_Nav_Detai">Thông Báo</string>
+    <string name="btn_Nav_Cart">Giỏ Hàng</string>
+    <string name="btn_Nav_Profile">Profile</string>
 </resources>

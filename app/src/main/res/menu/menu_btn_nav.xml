@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btn_Nav_Home"
+        android:icon="@drawable/trangchu"
+        android:title="@string/btn_Nav_Home"
+        />
+    <item
+        android:id="@+id/btn_Nav_Detai"
+        android:icon="@drawable/thongbao"
+        android:title="@string/btn_Nav_Detai"
+        />
+    <item
+        android:id="@+id/btn_Nav_Cart"
+        android:icon="@drawable/giohang"
+        android:title="@string/btn_Nav_Cart"
+        />
+    <item
+        android:id="@+id/btn_Nav_Profile"
+        android:icon="@drawable/nguoidungg"
+        android:title="@string/btn_Nav_Profile"
+        />
+
+</menu>

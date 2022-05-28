@@ -14,9 +14,6 @@
         android:theme="@style/Theme.AppFood"
         tools:targetApi="31">
         <activity
-            android:name=".Search_Activity"
-            android:exported="false" />
-        <activity
             android:name=".Register_Activity"
             android:exported="false" />
         <activity
@@ -27,7 +24,9 @@
             android:exported="false" />
         <activity
             android:name=".Home_Activity"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Splash_Activity"
             android:exported="true">
