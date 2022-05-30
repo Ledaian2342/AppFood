@@ -10,5 +10,7 @@
     <color name="blue">#3AC5C8</color>
     <color name="gray">#C8D3D0</color>
     <color name="yellow">#FFEE47</color>
+    <color name="item">#C8EEE7</color>
+
 
 </resources>

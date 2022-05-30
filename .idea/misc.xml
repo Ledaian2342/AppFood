@@ -7,7 +7,7 @@
         <entry key="..\:/Fpoly/test/app/src/main/res/drawable-v24/addcard_background.xml" value="0.183" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_admin.xml" value="0.264" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_fragment_cart.xml" value="0.25" />
-        <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_fragment_detail.xml" value="0.13405797101449277" />
+        <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_fragment_detail.xml" value="0.264" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_fragment_home.xml" value="0.25" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_fragment_profile.xml" value="0.10989583333333333" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_home.xml" value="0.1" />
@@ -15,6 +15,7 @@
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_search.xml" value="0.136" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/lv_item_admin.xml" value="0.264" />
+        <entry key="..\:/Fpoly/test/app/src/main/res/layout/lv_item_fragment_home.xml" value="0.176" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/profile_activity.xml" value="0.22826086956521738" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/splash_activity.xml" value="0.22826086956521738" />
         <entry key="..\:/Fpoly/test/app/src/main/res/menu/menu_btn_nav.xml" value="0.18671875" />
