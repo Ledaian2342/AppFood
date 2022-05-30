@@ -49,8 +49,12 @@
         android:layout_width="41dp"
         android:layout_height="41dp"
         android:src="@drawable/caidat"
-        tools:layout_editor_absoluteX="354dp"
-        tools:layout_editor_absoluteY="69dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
 
     <TextView
         android:id="@+id/tv_Thongtin_profile"
@@ -167,8 +171,11 @@
         android:layout_height="29dp"
         android:text="Thông báo"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="351dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/edt_Thongbao"
@@ -276,27 +283,5 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.484" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bg"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-77dp" />
-
-    <TextView
-        android:id="@+id/tv_Thongtinnn_profile"
-        android:layout_width="131dp"
-        android:layout_height="24dp"
-        android:text="Thông tin cá nhân"
-        android:textColor="@color/teal_200"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
