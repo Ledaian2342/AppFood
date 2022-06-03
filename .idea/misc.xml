@@ -5,13 +5,17 @@
       <map>
         <entry key="..\:/Fpoly/AppFood/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/drawable/view_background.xml" value="0.2555" />
-        <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_addtocart.xml" value="0.264" />
+        <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_addtocart.xml" value="0.536" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_admin.xml" value="0.2223731884057971" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_fragment_cart.xml" value="0.2223731884057971" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_fragment_detail.xml" value="0.2223731884057971" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_fragment_profile.xml" value="0.2223731884057971" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_home.xml" value="0.2223731884057971" />
+        <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/activity_register.xml" value="0.2223731884057971" />
+        <entry key="..\:/Fpoly/Food/app/src/main/res/layout/lv_item_admin.xml" value="0.25" />
+        <entry key="..\:/Fpoly/Food/app/src/main/res/layout/lv_item_fragment_cart.xml" value="0.264" />
+        <entry key="..\:/Fpoly/Food/app/src/main/res/layout/lv_item_fragment_home.xml" value="0.25" />
         <entry key="..\:/Fpoly/Food/app/src/main/res/layout/splash_activity.xml" value="0.2223731884057971" />
         <entry key="..\:/Fpoly/test/app/src/main/res/drawable-v24/addcard_background.xml" value="0.183" />
         <entry key="..\:/Fpoly/test/app/src/main/res/layout/activity_admin.xml" value="0.264" />
